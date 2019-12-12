@@ -3,10 +3,10 @@ $(document).ready(function () {
 
     player.playlist([
 	  {
-            name: 'Channel 0',
+            name: 'Gazitv',
             autoplay: true,
             sources: [
-                {src: 'http://172.17.50.112/live/antbd1111/index.m3u8', type: 'application/x-mpegURL'},
+                {src: 'http://103.81.104.222/live/GTV/index.m3u8', type: 'application/x-mpegURL'},
             ]
         },
         {
