@@ -13,8 +13,8 @@
 body { background: #0e1011; color: #fff; }
 .tv-area { margin-top: 50px; }
 .thumbnail-slider { margin:0; padding:0 10px 0 0; height: 520px; white-space: nowrap; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; scroll-behavior: smooth; }
-.0thumbnail-slider li { list-style: none; margin-bottom: 10px; }
-.0thumbnail-slider li img { width: 100%; border-radius: 5px; }
+.thumbnail-slider li { list-style: none; margin-bottom: 10px; }
+.thumbnail-slider li img { width: 100%; border-radius: 5px; }
   
  .thumbnail-slider::-webkit-scrollbar {
  width: 12px;
@@ -47,6 +47,7 @@ body { background: #0e1011; color: #fff; }
   
   
   <div class="4tipsbd">
+   
 <div data-tab="Gazi Tv">
 <ul class="thumbnail-slider">
       <li><a href="javascript:void();" onclick="player.load({source: '//103.213.238.70:8080/live/channel1/playlist.m3u8'});"></a></li>
@@ -54,12 +55,17 @@ body { background: #0e1011; color: #fff; }
     </ul>
 
 </div>
-<div data-tab="Massranga"> <ul class="thumbnail-slider">
+<div data-tab="Massranga"> 
+ <ul class="thumbnail-slider">
       <li><a href="javascript:void();" onclick="player.load({source: '//adtv.ercdn.net/adsport1/adsport1.m3u8'});"><img src="/img/logo/gazitv.jpg" alt="GaziTV"></a></li>
    <li><a href="javascript:void();" onclick="player.load({source: '//adtv.ercdn.net/adsport1/adsport1.m3u8'});"><img src="/img/logo/gazitv.jpg" alt="GaziTV"></a></li>
-    </ul></div>
+    </ul>
+   </div>
 <div data-tab="Others"> 
-
+<ul class="thumbnail-slider">
+      <li><a href="javascript:void();" onclick="player.load({source: '//103.213.238.70:8080/live/channel1/playlist.m3u8'});"></a></li>
+      <li><a href="javascript:void();" onclick="player.load({source: '//103.213.238.70:8080/live/maasranga/playlist.m3u8'});"></a></li>
+    </ul>
 </div>
 
 </div>
